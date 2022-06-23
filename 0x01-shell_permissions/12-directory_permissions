@@ -1,2 +1,2 @@
-#m!/bin/bash
-kdir my_dir,chmod 751 0x01-shell_permissions/my_dir
+#!/bin/bash
+mkdir my_dir,chmod 751 0x01-shell_permissions/my_dir
