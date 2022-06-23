@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod o+r+w+x . ../hello
+chmod o+r+w+x /0x01-shell_permissions/hello
