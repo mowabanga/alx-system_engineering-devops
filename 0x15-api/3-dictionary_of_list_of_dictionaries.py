@@ -18,4 +18,3 @@ if __name__ == '__main__':
                            if j.get("id") == i.get('userId')]
              for j in req_id}
         json.dump(d, f)
-        
