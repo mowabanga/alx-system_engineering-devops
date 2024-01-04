@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-"""
-Write a Python script that, using this REST API,
+"""Write a Python script that, using this REST API,
 for a given employee ID, returns information about
 his/her TODO list progress
 export data in the json format.
 """
 import json
 import requests
-
 
 if __name__ == '__main__':
     filename = "todo_all_employees.json"
@@ -20,3 +18,4 @@ if __name__ == '__main__':
                            if j.get("id") == i.get('userId')]
              for j in req_id}
         json.dump(d, f)
+        
